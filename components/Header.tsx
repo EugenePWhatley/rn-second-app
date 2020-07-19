@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Colors from '../contants/colors'
 
-interface HeaderProps {
+type HeaderProps = {
   title: string
 }
 
